@@ -1,4 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
+
 import { sampleUserData } from '../../../utils/sample-data'
 
 export default (_: NextApiRequest, res: NextApiResponse) => {
