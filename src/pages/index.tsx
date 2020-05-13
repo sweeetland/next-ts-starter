@@ -1,10 +1,11 @@
-import Link from 'next/link'
+import { NextPage } from 'next';
+import Link from 'next/link';
 
-import { Heading } from '@chakra-ui/core'
+import { Heading } from '@chakra-ui/core';
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout/Layout';
 
-const IndexPage = () => (
+const IndexPage: NextPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
     <Heading as="h1">
       Hello Next.js{' '}
@@ -18,6 +19,6 @@ const IndexPage = () => (
       </Link>
     </p>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

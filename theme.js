@@ -1,4 +1,4 @@
-// example theme.js
+// https://chakra-ui.com/theme
 export default {
   breakpoints: ['30em', '48em', '62em', '80em'],
   fonts: {
@@ -18,4 +18,4 @@ export default {
     '5xl': '3rem',
     '6xl': '4rem',
   },
-}
+};
