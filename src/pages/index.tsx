@@ -1,10 +1,17 @@
 import Link from 'next/link'
 
+import { Heading } from '@chakra-ui/core'
+
 import Layout from '../components/Layout'
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
+    <Heading as="h1">
+      Hello Next.js{' '}
+      <span role="img" aria-label="ds">
+        👋
+      </span>
+    </Heading>
     <p>
       <Link href="/about">
         <a>About</a>

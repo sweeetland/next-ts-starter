@@ -11,6 +11,10 @@
     "lint:fix": "./node_modules/.bin/eslint --fix 'src/**'"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.7.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "emotion-theming": "^10.0.27",
     "isomorphic-unfetch": "3.0.0",
     "next": "9.4.0",
     "react": "^16.13.1",
